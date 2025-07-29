@@ -10,11 +10,36 @@ num1 = int(num1)
 print(num+5)
 
 str ფინქციით შეგვიძლია ნებისმიერი რამე გადავაქციოთ string-ად ანუ ტექსტად
+
+
+1)x=15
+text=str(x)
+print("რიცხვია: " + text)
+
+
+2)my_age=17
+text=str(my_age)
+print(მე ვარ + text + წლის)
+
+x=13
+text=str(x)
+print("საყვარელი რიცხვი" + text)
+
+float ფუნქციიტ შეგვიძლია რაიმე რიცხვი გადავაქციოთ წილად რიცხვად \
+1)x = float(10)
+
+2)y = float("5.75")
+
+3)z = float(True)
+
 '''
 
-x = 15
-text = str(x)
-print("რიცხვია: " + text)
+
+
+
+
+
+
 
 
 

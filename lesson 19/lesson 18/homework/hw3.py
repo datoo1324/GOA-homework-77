@@ -4,6 +4,3 @@
 for i in range(1, 11):
     print("dato")
 
-
-for i in range(1, 100):
-    print("datooo")

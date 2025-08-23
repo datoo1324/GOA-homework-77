@@ -18,3 +18,5 @@ elif temp>20:
     print("კარგი ამინდია")
 else:
     print("ცივა")
+
+

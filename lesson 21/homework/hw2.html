@@ -1,0 +1,31 @@
+<!-- შექმენით სარეგისტრაციო ფორმა სადაც მომხმარებელს შემოატანინებთ სრულ სახელს, 
+ ემაილს და პაროლს დაამატეთ ყველა დღეს ნასწავლი ატრიბუტები input-ებს და გმოიყენეთ ეტიკეტებიც(label).-->
+
+
+ <html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>სარეგისტრაციო ფორმა</h2>
+
+    <form>
+        <label for="fullname">სრული სახელი:</label>
+        <br>
+        <input type="text" id="fullname" name="fullname" placeholder="შეიყვანეთ თქვენი სრული სახელი" required>
+        <br>
+        <br>
+        <label for="email">ემაილი:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ემაილი" required>
+        <br>
+        <br>
+        <label for="password">პაროლი:</label>
+        <br>
+        <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი" required minlength="6">
+        <br>
+        <br>
+        <button type="submit">რეგისტრაცია</button>
+    </form>
+</body>
+</html>
